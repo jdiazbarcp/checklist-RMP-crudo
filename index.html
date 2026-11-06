@@ -188,20 +188,20 @@ details.pts li{margin:3px 0}
 
 <script>
 /* =====================================================================
-   CONFIGURACIÓN  ← (único bloque que hay que editar)
+   CONFIGURACIÓN
    ===================================================================== */
 const CONFIG = {
   // 1) Enlace PRECARGADO del Google Form (guía, paso 3). En cada pregunta del Form se escribe su "clave"
   //    (fecha, inicio, hora, turno, operador, semana, items_ok, items_obs, items_sb, hallazgos, estados,
   //    observaciones, id_registro) y se pega aquí el enlace que genera Google. Ejemplo:
   //    "https://docs.google.com/forms/d/e/1FAIpQLS.../viewform?usp=pp_url&entry.111=fecha&entry.222=inicio&..."
-  FORM_LINK_PRECARGADO: "",
+  FORM_LINK_PRECARGADO: "https://docs.google.com/forms/d/e/1FAIpQLSctvwzHOWk_mnpCD2VO07cWxUnZiva_vKa4rbypi_zEbWQj9g/viewform?usp=pp_url&entry.1437582180=fecha&entry.1894446029=inicio&entry.2077756301=hora&entry.2136007750=turno&entry.860468883=operador&entry.515358333=supervisor&entry.2009078773=semana&entry.1814027664=items_ok&entry.904980931=items_obs&entry.404718330=items_sb&entry.859325440=hallazgos&entry.1334162846=estados&entry.451557018=observaciones&entry.2071517495=id_registro&entry.291619082=checklist",
 
   // 2) (Opcional) enlace CSV publicado de la pestaña "Catalogo" para que los cambios en la hoja
   //    se reflejen solos en la app. Si se deja vacío se usa el catálogo incluido en este archivo.
   CATALOGO_CSV_URL: "",
 
-  // 3) Turnos disponibles (editar según la planta)
+  // 3) Turnos disponibles
   TURNOS: ["A", "B", "AA"],
 
   // 4) "directo"    = la app envía los datos al Form sin abrirlo (recomendado)
